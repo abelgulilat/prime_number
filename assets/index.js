@@ -19,14 +19,14 @@ a.textContent = "...Empty Input...";
 a.textContent = "You Entered Number Lessthan One Please Enter Again..."
  }else{
     if( !Prime()){
-        a.textContent = y.value+" "+" is Prime Number";
+        a.innerHTML = y.value+" "+" is Prime Number";
 
     }else{
-        a.textContent = y.value+" "+" is Not Prime Number";
+        a.innerHTML = y.value+" "+" is Not Prime Number";
 
     }
 
- }  
+}  
 });
 
  let Prime =()=>{
